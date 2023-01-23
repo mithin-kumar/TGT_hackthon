@@ -5,7 +5,6 @@ import cv2
 from imageai.Detection import ObjectDetection
 import os
 
-# execution_path = os.getcwd()
 
 
 def distance_to_camera(knownWidth, focalLength, perWidth):
@@ -78,12 +77,4 @@ while True:
 
 cap.release()
 
-# video_detector = VideoObjectDetection()
-# video_detector.setModelTypeAsYOLOv3()
-# video_detector.setModelPath(os.path.join(execution_path, "yolov3.pt"))
-# video_detector.loadModel()
 
-# plt.show()
-# print("detecting")
-# video_results = video_detector.detectObjectsFromVideo(input_file_path=os.path.join(execution_path, "test_3.mp4"), output_file_path=os.path.join(execution_path, "video_second_analysis") ,
-#  frames_per_second=5, per_second_function=forSecond,  minimum_percentage_probability=30, return_detected_frame=True, log_progress=True)
